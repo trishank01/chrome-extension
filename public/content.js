@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // DEBUG: confirm injection
 console.log("▶️ Highlight Copier content.js loaded on", window.location.href);
 
