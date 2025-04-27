@@ -7,14 +7,11 @@
       "default_popup": "index.html",
       "default_icon": "icon.png"
     },
-    "background": {
-      "service_worker": "background.js"
-    },
-    
     "permissions": [
       "clipboardWrite",
       "scripting",
-      "activeTab"
+      "activeTab",
+      "storage"
     ],
     "host_permissions": [],
     "icons": {
