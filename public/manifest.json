@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Website Highlight Saver Chrome Extension",
+    "version": "1.0",
+    "description": "A Chrome extension built with React",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [],
+    "host_permissions": [],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
